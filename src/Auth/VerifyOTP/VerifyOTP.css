@@ -1,0 +1,92 @@
+body{
+  
+}
+.login_wrapper{
+    /* padding: 3rem 0; */
+    height: 100vh;
+    background-image: url(../assets/summer-chill-collection-colorful-leisure-fresh-concept.jpg);
+    background-size: cover;
+}
+.login_wrapper .MuiGrid-root > .MuiGrid-item{
+/* background-color: rgba(204, 204, 204,.5);
+padding: 2rem 5rem; */
+background-color: rgba(63, 62, 62, 0.5);
+padding: 2rem 5rem;
+height: 100vh;
+display: flex;
+align-items: center;
+max-width: 39%;
+
+}
+.login_wrapper .container{
+    padding: 0;
+    max-width: 1920px;
+}
+.login_wrapper .login_sec_right{width: 100%;}
+.login_wrapper .login_sec_right form{
+    width: 500px;
+    max-width: 100%;
+}
+.login_wrapper .login_sec_right h1{
+    font-size: 1.8rem;
+    color: #fff;
+}
+.login_wrapper .login_sec_right h1 span{
+   display: block;
+}
+
+.login_wrapper .login_sec_right .login_input{
+    margin: 1rem 0;
+
+}
+.login_wrapper .login_sec_right .login_input .MuiTextField-root{
+    width: 100%;
+    color: #fff;
+}
+.login_wrapper .login_sec_right .login_input .MuiInputLabel-root{
+    color: #fff;
+}
+.login_wrapper .login_sec_right .login_input .MuiInput-root:before{
+    border-bottom: 1px solid #fff;
+    border-bottom-style: dashed;
+}
+.login_wrapper .login_sec_right .login_input .MuiInput-root::after{
+    border-bottom: 1px solid #fff;
+    border-bottom-style: dashed;
+}
+.login_wrapper .login_sec_right .login_input input{
+    width: 100%;
+    color: #fff;
+}
+
+.login_wrapper .login_sec_right .login_btn{
+    margin-top: 2rem;
+}
+.login_wrapper .login_sec_right .login_btn button{
+    width: 70%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.login_wrapper .login_sec_right .forget_psw{
+    margin: 2rem 0;
+    color: #fff;
+}
+.login_wrapper .login_sec_right .forget_psw a{
+    color: #fff;
+}
+
+.otp_in{}
+.otp_in input{
+    /* padding: 30px; */
+    height: 60px;
+    width: 100px;
+    color: #000 !important;
+    font-size: 20px;
+    /* background-color: red; */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
